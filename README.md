@@ -8,7 +8,7 @@ The easygo framework highly emphasize on MVC practices and take care of low leve
 actual code required for you appliction. The EasyGo framework is well structured and follow the best practices of OOPS.
 It does uses ZF2 database components for database connectivity as a wrapper. 
 
-However, it is beta release of EasyGo and it's under testing phase, we are working to make it to be used in production, meanwhile 
+However, it is beta release of EasyGo and it's still under testing, we are working to make it to be used in production, meanwhile 
 you can download and can play with the code.
 
 
