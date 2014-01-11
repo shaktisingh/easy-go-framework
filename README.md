@@ -11,6 +11,12 @@ It does uses ZF2 database components for database connectivity as a wrapper.
 However, it is beta release of EasyGo and it's under testing phase, we are working to make it to be used in production, meanwhile 
 you can download and can play with the code.
 
+
+### SYSTEM REQUIREMENTS
+
+EasyGo Framework requires PHP 5.3.3 or later. we recommend using the
+latest PHP version whenever possible
+
 ###LICENSE
 
 This software is licensed under BSD license.
