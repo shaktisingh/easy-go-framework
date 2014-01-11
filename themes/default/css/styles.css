@@ -1,0 +1,64 @@
+body 
+{
+	background-color: aliceblue;
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;
+}
+.page 
+{
+	margin: 0 auto;
+	width:900px;
+}
+/**** Header Area */
+.nav
+{
+	float:left;
+}
+.nav ul
+{
+	float:left;
+	padding-left: 0px
+}
+.nav ul li
+{
+	float:left;
+	list-style:none;
+	padding: 0px 7px 0px 7px
+}
+.header 
+{
+	width: 100%;
+	float:left;
+}
+/*** Content Area ****/
+
+.content
+{
+	float:left;
+	width: 100%;
+	min-height: 300px
+}
+.content .title
+{
+	font-size:20px;
+}
+/*** Footer Area *****/
+.footer
+{
+	float:left;
+	width: 100%;
+}
+.footer #author 
+{
+	float:left;
+	width: 200px;
+}
+.footer #author a 
+{
+	color: blue;
+}
+.footer #copyright 
+{
+	float:right;
+	width: 200px;	
+}

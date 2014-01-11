@@ -1,0 +1,23 @@
+<?xml version='1.0'?> 
+<modules>
+	<module name="Site"> 
+		<routes>
+			<route>
+				<current>site/site/index</current>
+				<new>website.html</new>
+			</route>
+			<route>
+				<current>site/cms</current>
+				<new>site/cms</new>
+			</route>
+		</routes>
+	</module>
+	<module name="test">
+		<routes>
+			<route>
+				<current></current>
+				<new></new>
+			</route>
+		</routes>
+	</module>
+</modules>

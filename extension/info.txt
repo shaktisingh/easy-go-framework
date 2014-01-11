@@ -1,0 +1,5 @@
+Here, we put our plugins and Modules to extend the existing functionality
+There will be two way to extend existing functionality
+1. Use already available Hooks and plugin your code with the appropriate hook(We usually use Hooks when there is not much modifications and a data object needs to be updated )
+2. Override the existing module using "Inheritance" and alter the existing functionality in your own module, you don't need to override
+each and every method of module-controller, you just need to override the method which needs to be updated according to the new requirement

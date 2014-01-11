@@ -1,0 +1,8 @@
+<?xml version='1.0'?> 
+<plugins>
+	<plugin> 
+		<name>siteindex</name>					
+		<class>SiteIndex\SiteIndex</class>		
+	</plugin>
+	
+</plugins>

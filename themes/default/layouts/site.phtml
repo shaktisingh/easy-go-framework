@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>EasyGo Framework</title>
+		<meta charset="utf-8" />		
+		<?php $this->registerCss('styles.css'); ?>
+		<?php $this->registerJs('function.js'); ?>
+		<?php echo $this->getCssJs(); ?>
+		
+	</head>
+    <body>
+		<div class="page"> 
+			<div class="header">
+				<p>EasyGo Framework</p>
+				<div class="nav">
+					<ul>
+						<li><a href=""></a></li>						
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<?php  echo $this->content; ?>    
+			</div>
+			<div class="footer">				        
+				<footer>
+					<p id="author">Author <a href="mailto:shakti.blevel@gmail.com">Shakti Singh</a></p> 
+					<p id="copyright">&copy; <?php echo date('Y'); ?> EasyGo Framework</p>
+				</footer>
+			</div>
+		</div>	
+    </body>
+</html>

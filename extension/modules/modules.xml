@@ -1,0 +1,7 @@
+<?xml version='1.0'?> 
+<modules>
+	<module>
+		<name>Country</name>
+		<overrides>Country</overrides>		
+	</module>	
+</modules>

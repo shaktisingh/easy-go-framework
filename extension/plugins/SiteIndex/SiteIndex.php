@@ -1,0 +1,1 @@
+<?phpnamespace SiteIndex;use EasyGo\Event\EventDispatcher;class SiteIndex{	public function myfunc($data)	{						$data->name = "shakti";	}}$site = new SiteIndex();EventDispatcher::getInstance()->attach('after.site.site.index', array($site, 'myfunc'));

@@ -1,0 +1,26 @@
+# Disable Directory listing 
+Options -Indexes
+
+RewriteEngine on
+
+#RewriteBase /
+
+# Don't rewrite URL if any resource file is requested 
+
+#RewriteRule \.(avi|js|ico|gif|jpg|png|css|csv|swf|flv|pdf|doc|docx|tif|tiff|htm|html)$1 [L]
+
+RewriteCond ${REQUEST_URI} ^.+$
+RewriteCond %{REQUEST_FILENAME} \.(avi|js|ico|gif|jpg|png|css|csv|swf|flv|pdf|doc|docx|tif|tiff)$ [OR]
+RewriteCond %{REQUEST_FILENAME} -l
+RewriteRule ^ - [L]
+
+# Rewrite all other request to public/index.php 
+
+RewriteRule    ^$   public/    [L]
+RewriteRule    (.*) public/$1    [L]
+
+
+
+# Disable Trace and Track methods
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK) 
+RewriteRule .* - [F]

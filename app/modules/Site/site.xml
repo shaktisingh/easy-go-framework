@@ -1,0 +1,26 @@
+<?xml version='1.0'?> 
+<module>
+	<name>Site</name>
+	<active>true</active>
+	<dependency>
+		<module></module>
+		<module></module>
+	</dependency>
+	<menu>
+		<title></title>
+		<position></position>
+		<anchor></anchor>
+		<childern>
+			<child>
+				<title></title>
+				<position></position>
+				<anchor></anchor>
+			</child>
+			<child>
+				<title></title>
+				<position></position>
+				<anchor></anchor>
+			</child>
+		</childern>		
+	</menu>		
+</module>	
