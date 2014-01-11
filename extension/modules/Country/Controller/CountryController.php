@@ -10,7 +10,7 @@ use EasyGo\Mvc\Controller\CoreController;
 use Country\Model\Country;
 /**
 *	SystemCountryController is the main controller which is defined in app/modules/Country/Controller 
-*	we call it System<...> because it is defined in the core system of online-exam.
+*	we call it System<...> because it is defined in the core system of EasyGo.
 */
 use Country\Controller\CountryController as SystemCountryController;
 
