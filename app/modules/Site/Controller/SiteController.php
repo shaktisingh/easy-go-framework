@@ -15,7 +15,7 @@ class SiteController extends CoreController
 		//$this->setTheme('shakti');
 		//echo '<pre>'; print_r($this);
 		//echo $this->view->actionView;
-		//$data = array ('username' => 'shakti', 'password' => 'sdfsdfsd', 'email' => 'shakti.singh@sunarctechnologies.com');
+		//$data = array ('username' => 'shakti', 'password' => 'sdfsdfsd', 'email' => 'shakti.blevel@gmail.com');
 		//$site = Site::getInstance();
 		//$site->getGateway()->insert($data);
 				

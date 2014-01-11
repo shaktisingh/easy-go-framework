@@ -5,7 +5,7 @@
 * All Logger classes should implement this interface 
 * @package EasyGo
 * @subpackage Logger
-* @author Shakti Singh <shakti.singh@sunarctechnologies.com>	
+* @author Shakti Singh <shakti.blevel@gmail.com>	
 */
 namespace EasyGo\Log;
 

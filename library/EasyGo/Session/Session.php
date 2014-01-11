@@ -1,7 +1,7 @@
 <?php
 /**
 *	Session Manager.
-*	@author Shakti Singh <shakti.singh@sunarctechnologies.com>
+*	@author Shakti Singh <shakti.blevel@gmail.com>
 */
 namespace EasyGo\Session;
 
