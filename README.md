@@ -4,7 +4,7 @@
 Easy-Go Framework, A lightweight framework to develop PHP application.
 
 It is easy to develop and maintain applications with EasyGo framework.
-The easygo framework highly focused on best MVC practices and take care of low level implementation so that you can write
+The easygo framework highly emphasize on MVC practices and take care of low level implementation so that you can write
 actual code required for you appliction. The EasyGo framework is well structured and follow the best practices of OOPS.
 It does uses ZF2 database components for database connectivity as a wrapper. 
 
