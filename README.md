@@ -1,7 +1,7 @@
 ### Welcome to the EasyGo Framework
 
 
-Easy-Go Framework, A lightweight framework to develop PHP application.
+Easy-Go Framework, A lightweight framework to develop PHP applications.
 
 It is easy to develop and maintain applications with EasyGo framework.
 The easygo framework highly emphasize on MVC practices and take care of low level implementation so that you can write
@@ -19,4 +19,4 @@ latest PHP version whenever possible
 
 ###LICENSE
 
-This software is licensed under BSD license.
+This software is licensed under [The BSD 2-Clause License](http://opensource.org/licenses/bsd-license.php).
